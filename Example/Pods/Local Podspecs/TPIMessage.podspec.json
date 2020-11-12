@@ -1,0 +1,38 @@
+{
+  "name": "TPIMessage",
+  "version": "0.1.0",
+  "summary": "A short description of TPIMessage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fan/TPIMessage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fan": "447690182@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fan/TPIMessage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TPIMessage/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.7"
+    ],
+    "web3swift": [
+      "~>1.1.10"
+    ],
+    "HandyJSON": [
+      "5.0.0-beta"
+    ]
+  }
+}

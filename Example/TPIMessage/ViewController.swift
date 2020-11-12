@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import TPIMessage
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        let sdk = SDKClass()
+//        sdk.testSDK()
+        
+        let wallet = EthWallet()
+        
+        print(wallet.create().mnemonics)
+        print(wallet.create().address)
+        print(wallet.create().privateKey)
+
+        
     }
 
     override func didReceiveMemoryWarning() {

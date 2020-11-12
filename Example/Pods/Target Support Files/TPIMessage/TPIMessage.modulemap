@@ -1,0 +1,6 @@
+framework module TPIMessage {
+  umbrella header "TPIMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

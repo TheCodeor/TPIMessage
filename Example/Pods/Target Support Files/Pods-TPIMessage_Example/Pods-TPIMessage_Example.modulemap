@@ -1,0 +1,6 @@
+framework module Pods_TPIMessage_Example {
+  umbrella header "Pods-TPIMessage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
